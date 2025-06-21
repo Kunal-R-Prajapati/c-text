@@ -4,17 +4,7 @@
 #define _BSD_SOURCE
 #define _GNU_SOURCE
 
-
-#include <ctype.h>
-#include <errno.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <termios.h>
-#include <unistd.h>
-#include <sys/ioctl.h>
-#include <string.h>
-#include <sys/types.h>
-
+#include "includes.h"
 /*** defines ***/
 #define KILO_VERSION "0.0.1"
 #define CTRL_KEY(k) ((k) & 0x1f)
